@@ -5,3 +5,8 @@ authors = ["joseph.lenton@askattest.com <joseph.lenton@askattest.com>"]
 edition = "2018"
 
 [dependencies]
+futures = { version = "0.1.25", default-features = false }
+http = "0.1.13"
+hyper = { version = "0.12.13", default-features = false }
+hyper-tls = "0.3.1"
+tokio = "0.1.11"
