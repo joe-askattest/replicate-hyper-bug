@@ -8,7 +8,7 @@ use futures::future::Future;
 use futures::stream::Stream;
 
 //static URL : &'static str = "https://api.github.com/repos/joe-askattest/replicate-hyper-bug/test-file.tx";
-static URL : &'static str = "https://raw.githubusercontent.com/joe-askattest/replicate-hyper-bug/master/test-file.txt";
+static URL : &'static str = "https://raw.githubusercontent.com/joe-askattest/replicate-hyper-bug/master/README.md";
 
 static USER_AGENT : &'static str = "replicate-hyper-bug (Rust)";
 
